@@ -8,5 +8,7 @@ if y < 0:
 else:
     r = b**2 - 4 *a * c
     x = ((-b)+ math.sqrt(r))/(2 * a)
+    print(a*x**2 + b*x + c)
     z = ((-b)- math.sqrt(r))/(2 * a)
-    print("The solutions are :", x, "and", z)
+    print(a*z**2 + b*z + c)
+    
