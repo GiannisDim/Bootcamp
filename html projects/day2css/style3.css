@@ -1,0 +1,33 @@
+#header{
+  text-align: center;
+  background-color: blue;
+  color: white;
+}
+
+#john{
+  color:orange;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+h2{
+  background-color: orange;
+}
+
+b{
+  color:blue;
+}
+
+span{
+  color: green;
+  font-weight: bold;
+}
+
+.edu{
+  font-style: italic;
+}
+
+#central{
+  text-decoration: underline;;
+  color:purple;
+}

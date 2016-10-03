@@ -1,0 +1,20 @@
+h1{
+  color: purple;
+  text-align: center;
+}
+
+strong{
+  color: red;
+}
+
+em{
+  color: yellow;
+}
+
+.section{
+  color: green;
+}
+
+span{
+  background-color: yellow;
+}

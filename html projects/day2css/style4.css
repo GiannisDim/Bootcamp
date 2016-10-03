@@ -1,0 +1,58 @@
+body{
+    font-family: sans-serif;
+}
+
+h1{
+  text-align: center;
+}
+
+#pdata{
+  text-align: center;
+}
+
+h2{
+  color: blue;
+}
+
+span{
+  text-decoration: underline;
+}
+
+.boldli{
+  font-weight:bold;
+}
+
+.insideli{
+    font-weight: normal;
+}
+
+#header{
+  background-color: orange;
+}
+
+#footer{
+  background-color: orange;
+  text-align: center;
+}
+
+.menu{
+  border: 0;
+  border-right:1px solid black;
+  padding: 5px;
+}
+
+#table1{
+  margin: 0 auto;
+}
+
+a{
+  text-decoration: none;
+}
+
+#table2, th, td{
+  border: 1px solid black;
+}
+
+.url{
+  text-align: center;
+}
