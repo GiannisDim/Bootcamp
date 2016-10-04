@@ -10,10 +10,10 @@ for i in range(10):
         odd.append(digit[i])
   
 for i in range(len(odd)):
-    print(repr(odd[i]).ljust(1),end=' ')
-print("\n")
+    print(odd[i],end=' ')
+print("\n", end=' ')
 for i in range(len(even)):
-    print(repr(even[i]).rjust(2),end='')
+    print(even[i],end=' ')
 
     
         
