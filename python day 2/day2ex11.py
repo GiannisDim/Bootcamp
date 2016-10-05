@@ -16,6 +16,6 @@ for i in range(len(polite)):
     print(polite[i], end=' ')
     sum = sum + 1
     if sum == 10:
-        print("\n")
+        print('')
         sum = 0
     
