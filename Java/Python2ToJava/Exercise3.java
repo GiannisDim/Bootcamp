@@ -18,7 +18,6 @@ class Exercise3{
         for(int j=0; j<26; j++){
           if(letter[i] == alphabet[j]){
             if((j + s) < 26 ){
-              System.out.println((j+s));
               letter[i] = alphabet[(j+s)];
               break;
             }else{
