@@ -1,0 +1,205 @@
+html, body{height: 100%;}
+
+/*index styling*/
+
+.index .container{
+	padding: 80px 20px;
+}
+
+h3, h4 {
+    margin: 10px 0 30px 0;
+    letter-spacing: 7px; 
+    font-size: 20px;
+    color: #648880;
+}
+
+/* section destination*/
+.destination{
+	margin-bottom: 25px;
+	width: 80%;
+	height: 80%;
+	transition: 0.5s;
+	opacity: 0.7;
+}
+
+.destination:hover, .destination:focus{
+	opacity: 1;
+}
+
+#destination{
+	padding-top: 80px;
+	padding-bottom: 80px;
+	background: #cbe2c1;
+   	background: -webkit-linear-gradient(to right, #a1d3b0, #f6f1d3);
+   	background: -moz-linear-gradient(to right, #a1d3b0, #f6f1d3);
+   	background: linear-gradient(to right, #a1d3b0, #f6f1d3);
+}
+
+/* black button with extra padding and no rounded borders */
+.btn{
+	margin: 5px;
+	padding: 10px 20px;
+	background-color: #293f50;
+	color: #f1f1f1;
+	border-radius: 0;
+	transition: .2s;
+}
+
+.btn:hover, .btn:focus{
+	border: 1px solid #293f50;
+	background-color: #fff;
+	color: #000;
+}
+/*contact form section*/
+
+#contact{
+	width: 100%;
+	background: #cbe2c1;
+   	background: -webkit-linear-gradient(to right, #a1d3b0, #f6f1d3);
+   	background: -moz-linear-gradient(to right, #a1d3b0, #f6f1d3);
+   	background: linear-gradient(to right, #a1d3b0, #f6f1d3);
+}
+
+/*footer style */
+footer{
+	background-color: #293f50;
+	color: #f5f5f5;
+	padding: 10px;
+	height: 15vh;
+}
+
+footer a {
+	color: #f5f5f5;
+}
+
+footer a:hover{
+	color: #777;
+	text-decoration: none;
+}
+
+/*Style navbar*/
+.navbar{
+	margin-bottom: 0;
+	background-color: #293f50;
+	border:0;
+	font-size: 10px;
+	opacity: 0.9;
+	border-radius: 0;
+}
+
+
+.navbar a{
+	color: #d5d5d5 !important;
+}
+
+.navbar li a, .navbar ,navbar-brand{
+	font-size: 15px;
+	color: #d5d5d5 !important;
+}
+
+.navbar-nav li a:hover {
+    color: #fff !important;
+}
+
+.navbar-nav li.active a {
+    color: #fff !important;
+    background-color:#29292c !important;
+}
+
+.navbar-form {
+	margin-top: 4px;
+}
+
+/* style vote section */
+.vote{
+	background: #293f50;
+	color: #bdbdbd;
+}
+
+.vote h3{
+	color: #fff;
+}
+
+.vote p{
+	font-style: italic;
+}
+
+.badge{
+	background: #293f50;
+}
+
+.list-group-item{
+	color: #293f50;
+}
+
+strong{
+	color: #293f50;
+}
+
+/* login page style*/
+
+/*header*/
+header{background-color: #293f50;
+	height: 6vh;
+	position: relative;
+	z-index: 1;
+}
+
+header > .navbar {
+	opacity: 1;
+}
+
+
+/* main container style*/
+.main{
+	height: 79vh;
+	background: -webkit-linear-gradient(to right, #a1d3b0, #f6f1d3);
+   	background: -moz-linear-gradient(to right, #a1d3b0, #f6f1d3);
+   	background: linear-gradient(to right, #a1d3b0, #f6f1d3);
+}
+
+/*style signup form*/
+#wrap{
+	height: 59vh;
+	margin: 10vh auto;
+	position: relative;
+}
+
+#register{
+	margin:0;
+}
+
+#wrap > .row {
+	background-image: url(destinations.jpg);
+	background-size: cover;
+	background-position: center;
+	padding: 5vh 0;
+	position: relative;
+}
+
+#wrap legend {
+	color: #fff;
+}
+
+#wrap .bg {
+  background: #000;
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 0;   
+}
+
+legend{
+	font-weight: bold;
+}
+
+.form .form-control{ 
+	margin-bottom: 10px;
+}
+
+.navbar-form{
+	border: none;
+}
